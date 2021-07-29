@@ -20,4 +20,6 @@ public class MessageResource {
 	public List<Message> getMessages() {
 		return messageService.getAllMessages();
 	}
+	
+	
 }
